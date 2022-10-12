@@ -25,7 +25,6 @@ namespace Game
         {
             m_parent = parent;
         }
-        public Form1 GetForm1() { return m_parent.m_parent; }
         public virtual void tick()
         {
             movedown();

@@ -1,6 +1,4 @@
-﻿Imports System.Runtime.CompilerServices
-
-Public Class Form1
+﻿Public Class Form1
     Const Speed As Integer = 10
     Dim direction As Point
 
@@ -17,14 +15,14 @@ Public Class Form1
 
         'Any pictureboxes whose name start with TARGET that get run into will be removed
         If p2.Name.ToUpper.StartsWith("TARGET") Then 'remove targets when they are hit
-            Remove(p2)
+            'remove(p2)
         End If
 
         'Any BULLET pictures will be removed when they collide
         If p1.Name.ToUpper.StartsWith("BULLET") Then
             '(don't remove them if they collide with the player - like when they start out
             If Not p2.Name.ToUpper.StartsWith("PLAYER") Then 'remove bullets when they collide with others
-                Remove(p1)
+                'remove(p1)
             End If
         End If
 
@@ -47,29 +45,32 @@ Public Class Form1
             Case Keys.S
                 direction = New Point(0, Speed)
                 moveto(Player, 0, Speed)
-            Case Keys.A
-                direction = New Point(-Speed, 0)
-                moveto(Player, -Speed, 0)
-            Case Keys.D
-                direction = New Point(Speed, 0)
-                moveto(Player, Speed, 0)
-            Case Keys.Space
+
                 'Add a ball in the direction the player is facing
-                AddAt(BulletPictureBox2, New Point(60, 60), New Point(5, 5), "BALL")
+
         End Select
+        Select Case e.KeyCode
+            Case Keys.I
+                direction = New Point(0, -Speed)
+                moveto(Player2, 0, Speed)
+            Case Keys.K
+                direction = New Point(0, Speed)
+                moveto(Player2, 0, Speed)
+
+
+        End Select
+
+
+
+
+
     End Sub
 
     'You can make items appear using a time
     Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
         '   AddAt(BulletPictureBox2, New Point(0, 0), "CHASE")
         'AddAt(BulletPictureBox2, New Point(10, 5), "FOLLOW")
-        'AddAt(BulletPictureBox2, New Point(5, 15), "RANDOM")
-        Dim path(3) As Point
-        path(0) = New Point(15, 5)
-        path(1) = New Point(10, 5)
-        path(2) = New Point(-15, -5)
-        path(3) = New Point(-10, -5)
-        AddAt(BulletPictureBox2, New Point(20, 20), path)
+
 
     End Sub
 
@@ -79,4 +80,11 @@ Public Class Form1
         UpdateGame()
     End Sub
 
+    Private Sub Player_Click(sender As Object, e As EventArgs) Handles Player.Click
+
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        AddAt(BulletPictureBox2, New Point(100, 60), New Point(100, 10), "BALL")
+    End Sub
 End Class
