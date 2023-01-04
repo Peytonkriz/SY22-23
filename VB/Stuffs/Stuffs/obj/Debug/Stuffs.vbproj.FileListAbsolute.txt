@@ -1,0 +1,13 @@
+C:\Users\pwkri073\Documents\SY22-23\VB\Stuffs\Stuffs\bin\Debug\Stuffs.exe.config
+C:\Users\pwkri073\Documents\SY22-23\VB\Stuffs\Stuffs\bin\Debug\Stuffs.exe
+C:\Users\pwkri073\Documents\SY22-23\VB\Stuffs\Stuffs\bin\Debug\Stuffs.pdb
+C:\Users\pwkri073\Documents\SY22-23\VB\Stuffs\Stuffs\bin\Debug\Stuffs.xml
+C:\Users\pwkri073\Documents\SY22-23\VB\Stuffs\Stuffs\obj\Debug\Stuffs.vbproj.AssemblyReference.cache
+C:\Users\pwkri073\Documents\SY22-23\VB\Stuffs\Stuffs\obj\Debug\Stuffs.vbproj.SuggestedBindingRedirects.cache
+C:\Users\pwkri073\Documents\SY22-23\VB\Stuffs\Stuffs\obj\Debug\Stuffs.Form1.resources
+C:\Users\pwkri073\Documents\SY22-23\VB\Stuffs\Stuffs\obj\Debug\Stuffs.Resources.resources
+C:\Users\pwkri073\Documents\SY22-23\VB\Stuffs\Stuffs\obj\Debug\Stuffs.vbproj.GenerateResource.cache
+C:\Users\pwkri073\Documents\SY22-23\VB\Stuffs\Stuffs\obj\Debug\Stuffs.vbproj.CoreCompileInputs.cache
+C:\Users\pwkri073\Documents\SY22-23\VB\Stuffs\Stuffs\obj\Debug\Stuffs.exe
+C:\Users\pwkri073\Documents\SY22-23\VB\Stuffs\Stuffs\obj\Debug\Stuffs.xml
+C:\Users\pwkri073\Documents\SY22-23\VB\Stuffs\Stuffs\obj\Debug\Stuffs.pdb

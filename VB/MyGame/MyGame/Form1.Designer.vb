@@ -77,10 +77,10 @@ Partial Class Form1
         'WallPictureBox4
         '
         Me.WallPictureBox4.BackColor = System.Drawing.Color.White
-        Me.WallPictureBox4.Location = New System.Drawing.Point(0, 0)
+        Me.WallPictureBox4.Location = New System.Drawing.Point(-6, 0)
         Me.WallPictureBox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.WallPictureBox4.Name = "WallPictureBox4"
-        Me.WallPictureBox4.Size = New System.Drawing.Size(11, 360)
+        Me.WallPictureBox4.Size = New System.Drawing.Size(22, 360)
         Me.WallPictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.WallPictureBox4.TabIndex = 5
         Me.WallPictureBox4.TabStop = False
@@ -88,7 +88,7 @@ Partial Class Form1
         'Player2
         '
         Me.Player2.BackColor = System.Drawing.Color.White
-        Me.Player2.Location = New System.Drawing.Point(523, 77)
+        Me.Player2.Location = New System.Drawing.Point(532, 128)
         Me.Player2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Player2.Name = "Player2"
         Me.Player2.Size = New System.Drawing.Size(13, 76)
@@ -130,7 +130,7 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
-        Me.ClientSize = New System.Drawing.Size(577, 361)
+        Me.ClientSize = New System.Drawing.Size(577, 357)
         Me.Controls.Add(Me.WallPictureBox3)
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)

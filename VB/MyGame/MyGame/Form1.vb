@@ -52,7 +52,7 @@
         Select Case e.KeyCode
             Case Keys.I
                 direction = New Point(0, -Speed)
-                moveto(Player2, 0, Speed)
+                moveto(Player2, 0, -Speed)
             Case Keys.K
                 direction = New Point(0, Speed)
                 moveto(Player2, 0, Speed)
@@ -85,6 +85,6 @@
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        AddAt(BulletPictureBox2, New Point(100, 60), New Point(100, 10), "BALL")
+        AddAt(BulletPictureBox2, New Point(100, 10), New Point(100, 10), "BALL")
     End Sub
 End Class
